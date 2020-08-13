@@ -1,0 +1,138 @@
+.burgerIngredients
+{
+    height: 290px;
+    width: 100%;
+    overflow: visible;
+}
+
+.burgerIngredients p
+{
+    text-align: center;
+}
+
+.burgerIngredients h2 
+{
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.ingredientsBlock
+{
+    background-color: rgb(44, 122, 238);
+    margin: 30px auto 0;
+    display: table;
+    max-width: 200px;
+    width: 100%;
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px;
+    color: snow;
+    margin-left: 100%;
+    margin-top: -45%;
+
+    
+}
+
+.ingredientsBlock p
+{
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.ingredientsBtns
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.ingredientsBtn{
+    border: 0;
+    background-color: #c9ad0f;
+    color: snow;
+    padding: 8px;
+    cursor: pointer;
+    display: table;
+    width: 95px;
+    border-radius: 15px;
+}
+
+/* Burger Content */
+
+.topSideBurger
+{
+    background-image: url(../assets/top.jpg);
+    background-size: 280px;
+    height: 110px;
+    width: 100%;
+    display: table;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bottomSideBurger
+{
+    background-image: url(../assets/bottom.jpg);
+    background-size: 280px;
+    height: 60px;
+    width: 100%;
+    display: table;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.lettuseSide
+{
+    background-image: url(../assets/lettuce.jpg);
+    background-size: 280px;
+    height: 27px;
+    width: 100%;
+    display: table;
+    background-repeat: no-repeat;
+    background-position: center;
+   background-position: center;
+}
+.tomatoSide
+{
+    background-image: url(../assets/tomato.jpg);
+    background-size: 280px;
+    height: 20px;
+    width: 100%;
+    display: table;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.cheeseSide
+{
+    background-image: url(../assets/cheese.jpg);
+    background-size: 280px;
+    height: 15px;
+    width: 100%;
+    display: table;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.meatSide
+{
+    background-image: url(../assets/meat.jpg);
+    background-size: 280px;
+    height: 45px;
+    width: 100%;
+    display: table;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cucumberSide
+{
+    background-image: url(../assets/cucumber.jpg);
+    background-size: 280px;
+    height: 24px;
+    width: 100%;
+    display: table;
+    background-repeat: no-repeat;
+    background-position: center;
+}
